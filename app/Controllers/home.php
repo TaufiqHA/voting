@@ -1,9 +1,12 @@
 <?php 
 
-class Home
+class Home extends Controller
 {
-	public function index($name = "")
+	public function index()
 	{
-		echo "Hello, my name is $name";
+		$data['judul'] = 'VOTING | ANGKA 2022';
+		$this->view('templates/header', $data);
+		$this->view('home/index');
+		$this->view('templates/footer');
 	}
 }
