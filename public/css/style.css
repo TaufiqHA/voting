@@ -647,10 +647,6 @@ video {
   height: 5rem;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -669,10 +665,6 @@ video {
 
 .w-\[20px\] {
   width: 20px;
-}
-
-.w-2 {
-  width: 0.5rem;
 }
 
 .translate-x-1\/2 {
@@ -736,17 +728,8 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.bg-teal-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(45 212 191 / var(--tw-bg-opacity));
-}
-
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-8 {
