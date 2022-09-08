@@ -7,6 +7,7 @@ function view()
 		success: function(data)
 		{
 			$('#nilai').html(data.nilai);
+			// console.log('Hello World!');
 		}
 	})
 }
