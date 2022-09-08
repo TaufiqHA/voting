@@ -7,7 +7,8 @@ function view()
 		success: function(data)
 		{
 			
-			$('#nilai').html(data.nilai);
+			$('#nilai').html(data[0].nilai);
+			$('#nilai1').html(data[1].nilai);
 		}
 	})
 }
