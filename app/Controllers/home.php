@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class Home extends Controller
 {
@@ -14,7 +14,10 @@ class Home extends Controller
 
 	public function thanks()
 	{
-		echo 'taufiq hidayah abdullah';
+		$data['judul'] = 'ANGKA 2022';
+		$this->view('templates/header', $data);
+		$this->view('home/thanks');
+		$this->view('templates/footer');
 	}
 
 	public function get()
