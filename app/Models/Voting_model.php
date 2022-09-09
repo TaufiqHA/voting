@@ -22,4 +22,11 @@ class Voting_model
 		$this->db->execute();
 		return true;
 	}
+
+	public function reset()
+	{
+		$this->db->query('UPDATE vote SET nilai = 0');
+		$this->db->execute();
+		return true;
+	}
 }

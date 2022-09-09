@@ -31,4 +31,12 @@ class Home extends Controller
 			$this->thanks();
 		}
 	}
+
+	public function reset()
+	{
+		$reset = $this->model('Voting_model')->reset();
+		if ($reset === true) {
+			$this->index();
+		}
+	}
 }

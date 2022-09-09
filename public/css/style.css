@@ -757,6 +757,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -801,6 +806,10 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.last\:flex:last-child {
+  display: flex;
 }
 
 .focus\:border:focus {

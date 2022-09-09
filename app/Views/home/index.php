@@ -16,6 +16,11 @@
                 <h2><?php echo $data['vote'][1]['nama'] ?></h2>
                 <p id="nilai1"><?php echo $data['vote'][1]['nilai'] ?></p>
             </div>
+            <div class="w-full flex justify-center">
+                <a href="<?php echo BASEURL; ?>/home/reset" class="w-1/2 mx-auto flex justify-center">
+                    <button class="w-1/2 bg-teal-500 px-3 py-2 rounded-xl font-semibold text-white mt-5">RESET</button>
+                </a>
+            </div>
         </div>
     </div>
 </div>
