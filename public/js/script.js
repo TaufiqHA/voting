@@ -9,6 +9,8 @@ function view()
 			
 			$('#nilai').html(data[0].nilai);
 			$('#nilai1').html(data[1].nilai);
+			$('#nilai2').html(data[2].nilai);
+			$('#nilai3').html(data[3].nilai);
 		}
 	})
 }
